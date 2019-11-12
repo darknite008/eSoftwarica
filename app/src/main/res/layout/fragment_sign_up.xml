@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SignUp"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:drawableLeft="@drawable/ic_action_user"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16dp"
+        android:layout_alignTop="@id/imageView2"
+        android:background="@drawable/texfile_rounded"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="112dp"
+        android:hint="Name"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/etname" />
+
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:drawableLeft="@drawable/ic_action_user"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="16dp"
+        android:layout_alignTop="@id/etnewpass"
+        android:background="@drawable/texfile_rounded"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="70dp"
+        android:hint="E-mail"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/etemaill" />
+
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/etname"
+        android:layout_marginStart="100dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/texfile_rounded"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:textSize="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etname" />
+
+    <EditText
+        android:id="@+id/etnewpass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/etname"
+        android:layout_marginStart="100dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/texfile_rounded"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:textSize="16dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/etemaill"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign up"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnewpass"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBarr"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarr"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@id/imageView2"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="75dp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

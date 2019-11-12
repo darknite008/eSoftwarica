@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Welcome">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="200dp"
+        android:hint="Email"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Log out"
+        android:onClick="logout"
+        android:layout_alignTop="@id/userid"
+        android:background="@drawable/button_rounded"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userid"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131763164463",
+    "firebase_url": "https://esoftwarica.firebaseio.com",
+    "project_id": "esoftwarica",
+    "storage_bucket": "esoftwarica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131763164463:android:d00dc2da733ea78067fdda",
+        "android_client_info": {
+          "package_name": "com.om.esoftwarica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131763164463-19sosahkbt685g1m39nrkkr1libta445.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.om.esoftwarica",
+            "certificate_hash": "e93ba888354c0806bdd9e160933025f24cc50dd7"
+          }
+        },
+        {
+          "client_id": "131763164463-7j491tvjslb02kn4oriued4apnmob4rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_9r5m1UED1i3xKbE9CCcUm8gikgOucA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131763164463-7j491tvjslb02kn4oriued4apnmob4rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
